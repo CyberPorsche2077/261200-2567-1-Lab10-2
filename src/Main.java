@@ -11,6 +11,6 @@ public class Main {
         xpay.setCardCVVNo((short) 235);
         xpay.setAmount(2565.23);
 
-        PayD payX = new XpayToPayDAdapter(xpay);
+        PayD payD = new XpayToPayDAdapter(xpay);
     }
 }
